@@ -1,0 +1,1117 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Reset browser default styles: */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  list-style: none;
+}
+/* ======================================================
+   General Rules 
+   ====================================================== */
+   
+Body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(211,211,211);
+}
+.layout {
+	width: 90%;
+	margin: 30px auto 30px auto;
+}
+
+img {
+	height: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  width: 99%;
+  background-color: rgb(192,192,192);
+  overflow: hidden;
+  margin: 10px 0px 80px 4px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: black;
+  padding: 50px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+  float: left;
+  margin: 10px 0px -30px -80px;
+}
+.topnav li {
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0px 0px 0px -40px;
+	font-weight: 600;
+}
+.topnav ul {
+	margin: 90px 0px 0px 0px;
+}
+
+/*
+======================================================
+ Home
+ ====================================================== */
+
+.home {
+	background-color: rgb(232,232,232);
+	margin: 50px 0px 0px 0px;
+}
+
+.home h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+.home p {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 70px 0px 0px 90px;
+}
+.quotes {
+	width: 100%;
+	float: left;
+	margin: 0px 0px 50px -90px;
+}
+.quotes p {
+	font-size: 22px;
+	font-weight: 500;
+	font-style: italic;
+}
+.picture1 {
+	margin: 50px 0px 0px 290px;
+	float: left;
+	min-height: 70px;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 15s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+/*
+======================================================
+ About
+ ====================================================== */
+
+.about h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 70px 0px;
+	border-bottom: 5px solid;	
+}
+.selfie {
+	margin: 50px 0px 0px 325px;
+}
+
+.about p {
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 0px 0px;
+}
+
+/*
+======================================================
+ contact
+ ====================================================== */
+
+.contact h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 35px 0px 60px 0px;
+	border-bottom: 5px solid;	
+}
+
+.contact p {
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 0px 0px;
+}
+
+.contactinfo p{
+	width: 100%;
+	float: left;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 60px 0px 10px 0px;
+	padding: 10px;
+}
+.contactinfo a{
+	float: left;
+	color: black;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0px 0px 10px 10px;
+}
+.contactinfo a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ portfolio
+ ====================================================== */
+
+.portfolio h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 90px 0px;
+	border-bottom: 5px solid;
+}
+
+.portfolio p {
+	font-size: 28px;
+	font-weight: 300;
+	margin: 90px 0px 0px 0px;
+}
+
+.year1 h3 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year1 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.year1,
+.year1 > .column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.year1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content a:hover {
+	color: skyblue;
+}
+
+.year2 h5 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year2 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.year2,
+.year2 > .column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.year2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content h6 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content a:hover {
+	color: skyblue;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.resume h7 {
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 90px 0px 120px 0px;
+}
+.resume a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.resume a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ 2D form
+ ====================================================== */
+.twoD h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.twoD p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 50px 0px 0px 0px;
+}
+
+.work1 {
+	width: 50%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+/* Add padding BETWEEN each column (if you want) */
+.work1,
+.work1 > .column10 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column10 {
+  float: left;
+  width: 92%;
+  margin: 30px 0px 20px 300px;
+}
+
+/* Clear floats after rows */
+.work1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content10 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content10 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content10 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content10 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ Digital Media 1
+ ====================================================== */
+
+.digitalMedia h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.digitalMedia p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 30px 0px 0px 0px;
+}
+
+.work2 {
+	width: 50%;
+	margin: 40px 0% 0px 0%;
+	float: left;
+}
+/* Add padding BETWEEN each column (if you want) */
+.work2,
+.work2 > .column8 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column8 {
+  float: left;
+  width: 92%;
+  margin: 30px 0px 20px 300px;
+}
+
+/* Clear floats after rows */
+.work2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content8 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content8 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content8 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content8 a:hover {
+	color: skyblue;
+}
+/*
+======================================================
+ Design Photogrpahy
+ ====================================================== */
+
+.des160 h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.des160 p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work3 {
+	width: 50%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+/* Add padding BETWEEN each column (if you want) */
+.work3,
+.work3 > .column11 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column11 {
+  float: left;
+  width: 92%;
+  margin: 30px 0px 20px 300px;
+}
+
+/* Clear floats after rows */
+.work3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content11 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content11 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content11 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content11 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ color theory
+ ====================================================== */
+
+.color h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.color p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work4 {
+	width: 50%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+/* Add padding BETWEEN each column (if you want) */
+.work4,
+.work4 > .column9 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column9 {
+  float: left;
+  width: 78%;
+  margin: 30px 0px 20px 300px;
+}
+
+/* Clear floats after rows */
+.work4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content9 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content9 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content9 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content9 a:hover {
+	color: skyblue;
+}
+/*
+======================================================
+ TypoI
+ ====================================================== */
+
+.TypoI h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.TypoI p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work5 {
+	width: 50%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.work5,
+.work5 > .column7 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column7 {
+  float: left;
+  width: 90%;
+  margin: 30px 0px 20px 300px;
+}
+
+/* Clear floats after rows */
+.work5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content7 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content7 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content7 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content7 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ TypoII
+ ====================================================== */
+
+.TypoII h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.TypoII p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work6 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.work6,
+.work6 > .column3 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 200px;
+}
+
+/* Clear floats after rows */
+.work6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content3 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content3 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content3 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.content3 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content3 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ digitalMediaII
+ ====================================================== */
+
+.digitalMediaII h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.digitalMediaII p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work7 {
+	width: 50%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+
+/*
+======================================================
+ digitalMediaIII
+ ====================================================== */
+
+.digitalMediaIII h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.digitalMediaIII p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.digitalMediaIII li{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	margin: 30px 0px 0px 0px;
+}
+
+.firstWork h3 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+
+.firstWork p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.firstWork-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 0% 0px 30%;
+}
+.secondWork h4 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+
+.secondWork p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.secondWork-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 0% 0px 10%;
+}
+.thirdWork h5 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+
+.thirdWork p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.thirdWork-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 0% 0px 10%;
+}
+.fourWork h6 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+
+.fourWork p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.fourWork-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 0% 0px 30%;
+}
+
+/*
+======================================================
+ coding
+ ====================================================== */
+
+.coding h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 90px 0px;
+	border-bottom: 5px solid;
+}
+
+.coding p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 0px 0px;
+}
+
+.row2 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row2,
+.row2 > .column2 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 155px;
+}
+
+/* Clear floats after rows */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content2 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content2 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.conten2t a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content2 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ threeD
+ ====================================================== */
+
+.threeD h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.threeD p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work8 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.work8,
+.work8 > .column5 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column5 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 200px;
+}
+
+/* Clear floats after rows */
+.work8:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content5 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content5 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content5 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.content5 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content5 a:hover {
+	color: skyblue;
+}
+
+/*
+======================================================
+ form
+ ====================================================== */
+
+.form h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.form p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work8 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.work9,
+.work9 > .column6 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column6 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 200px;
+}
+
+/* Clear floats after rows */
+.work9:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content6 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content6 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content6 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.content6 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content6 a:hover {
+	color: skyblue;
+}
+
+
+
