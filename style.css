@@ -340,7 +340,24 @@ img {
     width: 100%;
   }
 }
-.resume h7 {
+
+.year3 h7 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year3 p {
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+}
+
+.resume h8 {
 	width: 100%;
 	float: left;
 	font-size: 24px;
