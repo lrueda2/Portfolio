@@ -207,6 +207,10 @@ img {
  portfolio
  ====================================================== */
 
+ /* ======================================================
+   First Year
+   ====================================================== */
+
 .portfolio h2 {
 	width: 100%;
 	float: left;
@@ -327,6 +331,58 @@ img {
 	color: skyblue;
 }
 
+.year3 h7 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year3 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.year3,
+.year3 > .column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.year3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content h9 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content a:hover {
+	color: skyblue;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -341,38 +397,6 @@ img {
   }
 }
 
-.year3 h7 {
-	width: 100%;
-	float: left;
-	font-size: 32px;
-	font-weight: 400;
-	color: black;
-	margin: 40px 0px 70px 0px;
-	border-bottom: 5px solid;
-}
-
-.year3 p {
-	font-size: 32px;
-	font-weight: 400;
-	color: black;
-}
-
-.resume h8 {
-	width: 100%;
-	float: left;
-	font-size: 24px;
-	font-weight: 600;
-	margin: 90px 0px 120px 0px;
-}
-.resume a{
-	font-size: 18px;
-	font-weight: 600;
-	color: black;
-}
-
-.resume a:hover {
-	color: skyblue;
-}
 
 /*
 ======================================================
@@ -635,6 +659,81 @@ img {
 .content9 a:hover {
 	color: skyblue;
 }
+
+/*
+======================================================
+ threeD
+ ====================================================== */
+
+.threeD h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.threeD p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work8 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.work8,
+.work8 > .column5 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column5 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 200px;
+}
+
+/* Clear floats after rows */
+.work8:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content5 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content5 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content5 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.content5 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content5 a:hover {
+	color: skyblue;
+}
+
+/* ======================================================
+   Second Year
+   ====================================================== */
+
 /*
 ======================================================
  TypoI
@@ -920,146 +1019,6 @@ img {
 	display: inline-block;
 	margin: 50px 0% 0px 30%;
 }
-
-/*
-======================================================
- coding
- ====================================================== */
-
-.coding h2 {
-	width: 100%;
-	float: left;
-	font-size: 42px;
-	font-weight: 800;
-	color: black;
-	margin: 30px 0px 90px 0px;
-	border-bottom: 5px solid;
-}
-
-.coding p {
-	font-size: 24px;
-	font-weight: 300;
-	margin: 70px 0px 0px 0px;
-}
-
-.row2 {
-  margin: 30px -90px 0px 90px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row2,
-.row2 > .column2 {
- padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column2 {
-  float: left;
-  width: 50%;
-  margin: 30px 0px 20px 155px;
-}
-
-/* Clear floats after rows */
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content2 {
-  background-color: rgb(192,192,192);
-  padding: 10px;
-}
-.content2 h3 {
-	font-size: 18px;
-	font-weight: 600;
-}
-
-.content2 p {
-	font-size: 14px;
-	font-weight: 400;
-}
-.conten2t a{
-	font-size: 18px;
-	font-weight: 600;
-	color: black;
-}
-
-.content2 a:hover {
-	color: skyblue;
-}
-
-/*
-======================================================
- threeD
- ====================================================== */
-
-.threeD h2 {
-	width: 100%;
-	float: left;
-	font-size: 42px;
-	font-weight: 800;
-	color: black;
-	margin: 30px 0px 50px 0px;
-	border-bottom: 5px solid;
-}
-.threeD p{
-	width: 100%;
-	float: left;
-	font-size: 24px;
-	font-weight: 300;
-	margin: 40px 0px 60px 0px;
-}
-
-.work8 {
-  margin: 30px -90px 0px 90px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.work8,
-.work8 > .column5 {
- padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column5 {
-  float: left;
-  width: 50%;
-  margin: 30px 0px 20px 200px;
-}
-
-/* Clear floats after rows */
-.work8:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content5 {
-  background-color: rgb(192,192,192);
-  padding: 10px;
-}
-.content5 h3 {
-	font-size: 18px;
-	font-weight: 600;
-}
-
-.content5 p {
-	font-size: 14px;
-	font-weight: 400;
-}
-.content5 a{
-	font-size: 18px;
-	font-weight: 600;
-	color: black;
-}
-
-.content5 a:hover {
-	color: skyblue;
-}
-
 /*
 ======================================================
  form
@@ -1130,5 +1089,458 @@ img {
 	color: skyblue;
 }
 
+/*
+======================================================
+ coding
+ ====================================================== */
+
+.coding h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 90px 0px;
+	border-bottom: 5px solid;
+}
+
+.coding p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 0px 0px;
+}
+
+.row2 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row2,
+.row2 > .column2 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 155px;
+}
+
+/* Clear floats after rows */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content2 h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content2 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.conten2 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content2 a:hover {
+	color: skyblue;
+}
+
+/* ======================================================
+   Third Year
+   ====================================================== */
+
+.year3 h7 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year3 p {
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+}
+
+/* ======================================================
+   TypoIII
+   ====================================================== */
+
+.TypoIII h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.TypoIII p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.work9 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work9 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work9box {
+	float: left;
+	display: inline-block;
+	margin: 75px 0% 20px 10%;
+}
+/* ======================================================
+   DES319
+   ====================================================== */
+.TypoIV h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.TypoIV p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.work10-one h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work10-one p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work10box-one {
+	float: left;
+	display: inline-block;
+	margin: 70px 0% 0px 20%;
+}
+
+.work10-two h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work10-two p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work10box-two {
+	float: left;
+	display: inline-block;
+	margin: 70px 0% 0px 20%;
+}
+
+.work10-three h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work10-three p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work10box-three {	
+	float: left;
+	display: inline-block;
+	display: table;
+	margin: 50px 0px 50px 350px;
+}
+.work10box-three p {
+	width: 75%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 10px 0px 50px -75px;
+}
+
+/* ======================================================
+   DES350
+   ====================================================== */
+.DigitalMediaIV h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.DigitalMediaIV p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.Work11-row {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.Work11-row,
+.Work11-row > .work11-column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.work11-column {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 155px;
+}
+
+/* Clear floats after rows */
+.Work11-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.work11-content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.work11-content h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.work11-content p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.work11-content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.work11-content a:hover {
+	color: skyblue;
+}
+
+  /* ======================================================
+   DES450
+   ====================================================== */
+.Creativecoding h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.Creativecoding p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.work12 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work12 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work12-box {
+	float: left;
+	display: inline-block;
+	margin: 70px 0% 0px 15%;
+}
+.work12-vid {
+	margin: 50px 0% 0px 25%;
+}
+
+   /* ======================================================
+   ART 150
+   ====================================================== */
+
+.NewMedia h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.NewMedia p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.Work13-row {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.Work13-row,
+.Work13-row > .work13-column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.work13-column {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 155px;
+}
+
+/* Clear floats after rows */
+.Work13-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.work13-content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.work13-content h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.work13-content p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.work13-content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.work13-content a:hover {
+	color: skyblue;
+}
+.work13-vid {
+	margin: 90px 0% 0px 25%;
+}
+
+/* ======================================================
+	LALS 499
+====================================================== */
+
+.LALS491 h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.LALS491 p {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 70px 0px 20px 0px;
+}
+
+.work14-box {
+	width: 100%;
+	float: left;
+	display: table;
+	margin: 70px 0% 0px 25%;
+}
+.work14-vid {
+	margin: 90px 0% 0px 25%;
+}
+/* ======================================================
+	Resume
+====================================================== */
+.resume h8 {
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 90px 0px 120px 0px;
+}
+.resume a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.resume a:hover {
+	color: skyblue;
+}
 
 
