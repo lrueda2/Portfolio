@@ -101,7 +101,7 @@ img {
 	font-style: italic;
 }
 .picture1 {
-	margin: 50px 0px 0px 290px;
+	margin: 50px 100px 0px 190px;
 	float: left;
 	min-height: 70px;
 }
@@ -134,6 +134,15 @@ img {
   90% {margin-left: -2184px;}
 }
 
+.picture1 h1 {
+	width: 100%;
+	margin: 50px 0px 80px -20px;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	
+}
+
 /*
 ======================================================
  About
@@ -149,15 +158,14 @@ img {
 	border-bottom: 5px solid;	
 }
 .selfie {
-	margin: 50px 0px 0px 325px;
+	margin: 50px 0px 20px 325px;
 }
 
 .about p {
 	width: 100%;
-	float: left;
 	font-size: 24px;
 	font-weight: 300;
-	margin: 70px 0px 0px 0px;
+	margin: 90px 0px 75px 0px;
 }
 
 /*
@@ -171,7 +179,7 @@ img {
 	font-size: 42px;
 	font-weight: 800;
 	color: black;
-	margin: 35px 0px 60px 0px;
+	margin: 35px 0px 50px 0px;
 	border-bottom: 5px solid;	
 }
 
@@ -180,7 +188,7 @@ img {
 	float: left;
 	font-size: 24px;
 	font-weight: 300;
-	margin: 70px 0px 0px 0px;
+	margin: 10px 0px 40px 0px;
 }
 
 .contactinfo p{
@@ -188,7 +196,7 @@ img {
 	float: left;
 	font-size: 18px;
 	font-weight: 300;
-	margin: 60px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 10px;
 }
 .contactinfo a{
@@ -196,7 +204,7 @@ img {
 	color: black;
 	font-size: 18px;
 	font-weight: 300;
-	margin: 0px 0px 10px 10px;
+	margin: 40px 0px 20px 0px;
 }
 .contactinfo a:hover {
 	color: skyblue;
@@ -1523,15 +1531,69 @@ img {
 .work14-vid {
 	margin: 90px 0% 0px 25%;
 }
+
 /* ======================================================
-	Resume
+   Fourth Year
+   ====================================================== */
+
+.year4 h1 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year4 p {
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+}
+
+/* ======================================================
+	Personal
 ====================================================== */
-.resume h8 {
+.personal h1 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 80px 0px 0px 0px;
+	border-bottom: 5px solid;
+}
+
+/* ======================================================
+	Humming Bird
+====================================================== */
+.HB h2 {
 	width: 100%;
 	float: left;
 	font-size: 24px;
 	font-weight: 600;
-	margin: 90px 0px 120px 0px;
+	margin: 60px 0px 0px 0px;
+}
+.HB a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.HB a:hover {
+	color: skyblue;
+}
+
+/* ======================================================
+	Resume
+====================================================== */
+.resume h2 {
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 60px 0px 80px 0px;
 }
 .resume a{
 	font-size: 18px;
