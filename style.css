@@ -377,7 +377,7 @@ img {
   background-color: rgb(192,192,192);
   padding: 10px;
 }
-.content h9 {
+.content h8 {
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -390,6 +390,59 @@ img {
 .content a:hover {
 	color: skyblue;
 }
+
+.year4 h9 {
+	width: 100%;
+	float: left;
+	font-size: 32px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0px 70px 0px;
+	border-bottom: 5px solid;
+}
+
+.year4 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.year4,
+.year4 > .column {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.year4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content h10 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.content a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content a:hover {
+	color: skyblue;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -428,7 +481,7 @@ img {
 }
 
 .work1 {
-	width: 50%;
+	width: 100%;
 	margin: 20px 0% 0px 0%;
 	float: left;
 }
@@ -441,7 +494,7 @@ img {
 /* Create four equal columns that floats next to each other */
 .column10 {
   float: left;
-  width: 92%;
+  width: 50%;
   margin: 30px 0px 20px 300px;
 }
 
@@ -471,6 +524,42 @@ img {
 	color: skyblue;
 }
 
+.work1-box {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 275px;
+}
+
+.work1-box1 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
+.work1-box2 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
+.work1-box3 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
 /*
 ======================================================
  Digital Media 1
@@ -494,7 +583,7 @@ img {
 }
 
 .work2 {
-	width: 50%;
+	width: 100%;
 	margin: 40px 0% 0px 0%;
 	float: left;
 }
@@ -507,7 +596,7 @@ img {
 /* Create four equal columns that floats next to each other */
 .column8 {
   float: left;
-  width: 92%;
+  width: 46%;
   margin: 30px 0px 20px 300px;
 }
 
@@ -536,6 +625,16 @@ img {
 .content8 a:hover {
 	color: skyblue;
 }
+
+.work2-box {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 25px;
+}
+
 /*
 ======================================================
  Design Photogrpahy
@@ -765,7 +864,7 @@ img {
 }
 
 .work5 {
-	width: 50%;
+	width: 100%;
 	margin: 20px 0% 0px 0%;
 	float: left;
 }
@@ -779,7 +878,7 @@ img {
 /* Create four equal columns that floats next to each other */
 .column7 {
   float: left;
-  width: 90%;
+  width: 50%;
   margin: 30px 0px 20px 300px;
 }
 
@@ -809,6 +908,15 @@ img {
 	color: skyblue;
 }
 
+.work5-box {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 250px;
+}
+
 /*
 ======================================================
  TypoII
@@ -832,6 +940,7 @@ img {
 }
 
 .work6 {
+	width: 100%;
   margin: 30px -90px 0px 90px;
 }
 
@@ -877,6 +986,42 @@ img {
 
 .content3 a:hover {
 	color: skyblue;
+}
+
+.work6-box {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 95px 0px 75px 150px;
+}
+
+.work6-box1 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 20px;
+}
+
+.work6-box2 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
+.work6-box3 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 20px;
 }
 
 /*
@@ -1097,6 +1242,51 @@ img {
 	color: skyblue;
 }
 
+.work9-box {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 95px 0px 75px 150px;
+}
+
+.work9-box1 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 20px;
+}
+
+.work9-box2 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
+.work9-box3 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 20px;
+}
+
+.work9-box4 {
+	width: 100%;
+	float: left;
+	/*display: inline-block;*/
+	/*display: table;*/
+	display: inline-block;
+	margin: 75px 0px 75px 150px;
+}
+
 /*
 ======================================================
  coding
@@ -1156,7 +1346,7 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 }
-.conten2 a{
+.content2 a{
 	font-size: 18px;
 	font-weight: 600;
 	color: black;
@@ -1536,7 +1726,7 @@ img {
    Fourth Year
    ====================================================== */
 
-.year4 h1 {
+.year4 h9 {
 	width: 100%;
 	float: left;
 	font-size: 32px;
@@ -1551,6 +1741,310 @@ img {
 	font-weight: 400;
 	color: black;
 }
+
+/* ======================================================
+	DES 480: Senior Thesis I
+====================================================== */
+
+.SeniorThesisI  h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.SeniorThesisI  p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work15 {
+	width: 100%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+
+.work15 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work15 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work15-box {
+	float: left;
+	display: inline-block;
+	margin: 70px 0% 0px 0%;
+}
+
+.work16 {
+	width: 100%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+
+.work16 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work16 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work16-box {
+	float: left;
+	display: inline-block;
+	margin: -175px 0px 0px 0px;
+}
+
+.work16-box1 {
+	float: left;
+	display: inline-block;
+	margin: -375px 0px 0px 0px;
+}
+
+.work17 {
+	width: 100%;
+	margin: 20px 0% 0px 0%;
+	float: left;
+}
+
+.work17 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work17 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+.work17-box {
+	float: left;
+	display: inline-block;
+	margin: 20px 0px 0px 0px;
+}
+
+/* ======================================================
+	DES 420:  Mobile App Design
+====================================================== */
+
+.MoblieApp  h1 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+.MoblieApp p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work18 {
+	width: 100%;
+	margin: 0px 0% 0px 0%;
+	float: left;
+}
+
+.work18 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work18 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.work18-box {
+	float: left;
+	display: inline-block;
+	margin: -225px 0px 0px 125px;
+}
+
+.work18-box1 {
+	float: left;
+	display: inline-block;
+	margin: -550px 0px 0px 125px;
+}
+
+.work18-box2 {
+	float: left;
+	display: inline-block;
+	margin: -475px 0px 0px 125px;
+}
+
+.work18-box3 {
+	float: left;
+	display: inline-block;
+	margin: -245px 0px 0px 125px;
+}
+
+.work18-box4 {
+	float: left;
+	display: inline-block;
+	margin: -160px 0px 0px 125px;
+}
+
+.work18-box5 {
+	float: left;
+	display: inline-block;
+	margin: -360px 0px 0px 125px;
+}
+
+.work18-box6 {
+	float: left;
+	display: inline-block;
+	margin: -155px 0px 0px 125px;
+}
+
+.work18-vid {
+	float: left;
+	display: inline-block;
+	margin: 105px 50px 300px 225px;
+}
+
+/* ======================================================
+	DES 481: Senior Thesis II
+====================================================== */
+
+.SeniorThesisII h2 {
+	width: 100%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: black;
+	margin: 30px 0px 50px 0px;
+	border-bottom: 5px solid;
+}
+
+.SeniorThesisII p{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0px 60px 0px;
+}
+
+.work19 {
+	width: 100%;
+	margin: 0px 0% 0px 0%;
+	float: left;
+}
+
+.work19 h2 {
+	width: 100%;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin: 80px 0px 20px 0px;
+	border-bottom: 5px solid;
+}
+.work19 p {
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 20px 0px 20px 0px;
+}
+
+.work19-vid {
+	float: left;
+	display: inline-block;
+	margin: 80px 50px 220px 250px;
+}
+
+.row12 {
+  margin: 30px -90px 0px 90px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row12,
+.row12 > .column12 {
+ padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column12 {
+  float: left;
+  width: 50%;
+  margin: 30px 0px 20px 155px;
+}
+
+/* Clear floats after rows */
+.row12:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content12 {
+  background-color: rgb(192,192,192);
+  padding: 10px;
+}
+.content12 h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content12 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.content12 a{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+
+.content12 a:hover {
+	color: skyblue;
+}
+
+
 
 /* ======================================================
 	Personal
